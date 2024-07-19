@@ -1,0 +1,39 @@
+# Exclude binary files
+*.exe
+*.log
+
+# Exclude Go build artifacts
+*.exe
+*.out
+*.test
+
+# Exclude Go modules cache
+vendor/
+
+# Exclude local environment files
+.env
+
+# Exclude Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Exclude images and videos (if you don't want them in the repo)
+public/images/
+public/videos/
+
+# Exclude IDE/editor specific files
+*.swp
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Exclude any other files or directories
+node_modules/
+coverage/
+dist/
